@@ -8,14 +8,16 @@ This project detects and mitigates bias in mortgage loan approval decisions usin
 ## 📁 Repository Structure
 ```bash
 ai-bias-bounty-2025/
-├── loan_model.ipynb # Complete Jupyter notebook with modeling and bias audits
-├── submission.csv # Predictions on the official test set
-├── ai_risk_report.docx # Final report with fairness findings and visuals
-├── bias_visualization.png # Approval rate bar chart by demographic groups
-├── shap_summary.png # SHAP feature importance plot
-├── shap_force_plot.png # Local explanation for an individual prediction
-├── confusion_matrix.png # Model performance breakdown
-├── README.md # This file
+├── loan_model.ipynb
+├── loan_access_dataset_with_labels.csv   
+├── submission.csv
+├── ai_risk_report.docx
+├── shap_summary.png
+├── bias_visualization.png
+├── shap_force_plot.png
+├── confusion_matrix.png
+├── README.md
+
 ```
 
 ---
